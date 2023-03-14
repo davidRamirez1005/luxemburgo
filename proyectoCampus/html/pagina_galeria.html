@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>LUGARES TURISTICOS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!---------------------------------------ICONO-------------------------------- -->
+ <!-- NOTA: EL ICONO LO COLOCO YO, PORQUE YO TENGO LA IMAGEN EN EL INDEX -->
+  <link rel="shortcut icon" href="/imagenes/castillo.png" type="image/x-icon">
+<!-- .--------------------------------------------------------------------------------- -->
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+/*------------------------BARRA DEL SCROLL--------------------------------------------------*/
+    body::-webkit-scrollbar{
+        width: 10px;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: #FA7070;
+        border-radius: 100px;
+    }
+    body::-webkit-scrollbar-button{
+        background-color: #A1C298;
+    }
+    body::-webkit-scrollbar-track-piece{
+        background-color: transparent;
+    }
+
+ /*   ------------------------------------------------------------------------------------------*/
+ body{
+  background-color: #d4f0ce;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1600'%3E%3Cpolygon fill='%23fbf2cf' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23fa7070' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23fbf2cf' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f39063' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23fbf2cf' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23e5ac68' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23fbf2cf' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23d6c57e' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23fbf2cf' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23c9daa0' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23fbf2cf' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23c6ebc5' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+      .ab{
+        display: flex;
+        justify-content: center;
+      }
+      .cd{
+        background: linear-gradient( #FBF2CF, #C6EBC5, #A1C298);
+      }
+      @keyframes filling {
+        from {
+          background-position: center 25%;
+        }
+        to {
+          background-position: center 50%;
+        }
+      }
+      
+      .container-text {
+        background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        color: #ffffff;
+        padding-top: 10px;
+        font-size: 100px;
+        font-family: "Bungee", cursive;
+        animation: filling 6s ease forwards;
+        justify-content: center;
+        text-align: center;
+        font-weight: 900;
+      }
+      
+      /*-----------------BARRA NAVEGADORA------------------------------*/
+      .arriba img{
+        width: 40%;
+        
+      }
+      .arriba{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .barraNav{
+        background-color: #C6EBC5;
+        height: 50px;
+      }
+      
+      .barraNav li a{
+        transition: all 0.02s;
+      }
+      .barraNav li a:hover{
+        background-color: #FBF2CF;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: transparent;
+        
+      }
+      .barraNav li a{
+        align-items: center;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        height: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        display:flex;
+        font-size: 17px;
+      }
+      .para{
+        background-image: url(https://images.alphacoders.com/594/thumb-1920-594876.jpg); 
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 200px;
+        color: white;
+        font-weight: 600;
+      }
+      /*  -------------------------------------------------------------------------------------*/
+
+    /*  -----------------FOOTER----------*/
+      footer{
+        padding-top: 4%;
+    } 
+    /*---------------------------------------*/
+    </style>
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here ----------------------------------------------------------->
+    <div class="container-fluid">
+      <div class="row arriba" style="background-color: #A1C298;">
+        <img src="/imagenes/inkpx-word-art.png" alt="" >
+      </div>
+      <div id="menuM" class="row barraNav menuM">
+
+        <ul id="sds" class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html" style="color: rgb(0, 0, 0)"><strong>INICIO</strong></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              style="color: rgb(0, 0, 0)"
+              ><strong>SERVICIOS</strong></a
+            >
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/html/pagina_actividades.html" style="color: rgb(0, 0, 0)"><strong>ACTIVIDADES</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(0, 0, 0)"><strong>TOURS</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactos" style="color: rgb(0, 0, 0)"><strong>CONTACTOS</strong></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------- -->
+  </header>
+  <main>
+    
+    <div class="container-fluid  cd">
+      <br><br>
+<br>
+      <div class="container" >
+        <div class="container-text">
+          Inicia Tu Aventura
+      </div>
+            <br>
+            <div class="card">
+              <div class="card-body para">
+                <h3 class="card-title" style="color: gold;">Ciudad de Luxemburgo</h3>
+                <p class="card-text">La capital del Gran Ducado de Luxemburgo es famosa por ser una de las capitales de la Unión Europea y una de las ciudades más prósperas del planeta. Esto puede hacernos pensar en una ciudad gris, llena de edificios de oficinas y sedes de grandes bancos. Sin embargo, la Ciudad de Luxemburgo esconde un casco antiguo precioso, con fortificaciones medievales declaradas Patrimonio de la Humanidad. De hecho, los luxemburgueses afirman tener el «balcón más bonito de Europa».</p>
+              </div>
+              <img src="https://i0.wp.com/www.rulandomundo.com/wp-content/uploads/luxemburgo-ciudad.jpg?fit=1087%2C720&ssl=1" class="card-img-bottom" alt="..." width="50%"height="550px">
+              
+            </div>
+            <br>
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title" style="color: gold;">Castillo de Vianden</h5>
+                <p class="card-text">Luxemburgo alberga cerca de 50 castillos de época medieval. El más espectacular es el Castillo de Vianden, construido entre los siglos XI y XIV. El Château de Vianden, que perteneció a la familia gran ducal luxemburguesa hasta 1977 (ahora es propiedad del Estado), se construyó originalmente en estilo románico, aunque en siglos posteriores se añadieron numerosos elementos góticos. Gracias a un largo proceso de restauración llevado a cabo en las últimas década del siglo pasado, Vianden es hoy uno de los castillos más bellos de Europa.</p>
+              </div>
+              <img src="https://assets.puzzlefactory.pl/puzzle/447/306/original.webp" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title " style="color: gold;">Echternach</h5>
+                <p class="card-text">Fundada hacia el siglo VII, Echternach es la población más antigua de Luxemburgo y uno de sus principales centros turísticos. Su pequeño casco histórico condensa casi todos sus encantos en torno a la Plaza del Mercado y a la cercana Abadía de Echternach. Además, en las afueras se puede visitar su Villa Romana y su lago. Por último, esta pequeña localidad es una base ideal para explorar la preciosa región de Mullerthal.</p>
+              </div>
+              <img src="https://custom.cvent.com/4F028DF3227143FBBA5C37A0954DABC0/pix/5c93ca68bfa148cea78dc5674e89d3b1.jpg" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title" style="color: gold;">Mullerthal Trail</h5>
+                <p class="card-text">La región de Mullerthal, a la que nos acabamos de referir, es conocida como la «pequeña Suiza» de Luxemburgo. Mullerthal es una zona boscosa salpicada por una gran cantidad de formaciones de roca arenisca que en algunos puntos forman pequeñas cuevas y otras peculiares formaciones. Una de las mejores formas de conocer la región es recorrer el Mullerthal Trail. Esta red de senderos tiene 3 rutas principales que abarcan un total de 112 km, a los que se pueden añadir 4 rutas extra de diferentes dificultades.</p>
+              </div>
+              <img src="https://cdn.audleytravel.com/3741/2672/79/15989972-little-switzerland-luxembourg.jpg" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title" style="color: gold;">Rocas de Berdorf</h5>
+                <p class="card-text">Como hemos dicho, Mullerthal se caracteriza por sus peculiares formaciones rocosas. Las hay decenas por toda la región, pero las más pintorescas se concentran en los alrededores de Berdorf. Uno de los conjuntos más bellos es el de Werschrummschlüff. Se sugiere aparcar a pie de carretera y recorrer con cautela los estrechos pasadizos que se abren entre las rocas formando auténticos laberintos de piedra. A pocos metros del parking se encuentra también un acceso para subir a la roca Predigtstuhl.</p>
+              </div>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Berdorf_%28LU%29%2C_Werschrummschloeff_--_2015_--_6200-4.jpg/2560px-Berdorf_%28LU%29%2C_Werschrummschloeff_--_2015_--_6200-4.jpg" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body  para">
+                <h5 class="card-title" style="color: gold;">Cementerios de la II Guerra Mundial</h5>
+                <p class="card-text">Luxemburgo fue duramente castigada durante la II Guerra Mundial. Los luxemburgueses sufrieron la invasión nazi en mayo de 1940 y su país fue uno de los principales escenarios de la cruenta batalla de las Ardenas a finales de 1944 y principios de 1945. Hay múltiples recuerdos de aquellos días infames por todo Luxemburgo, pero quizá dos de los lugares más emblemáticos son el Cementerio militar alemán de Sandweiler, con las tumbas de casi 11000 soldados alemanes y, especialmente, el Cementerio y monumento americano de Luxemburgo, donde descansa el cuerpo del mítico general Patton.</p>
+              </div>
+              <img src="https://farm9.staticflickr.com/8584/15425832243_0d63fabf89_c.jpg" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title" style="color: gold;">Esch-sur-Sûre</h5>
+                <p class="card-text">El diminuto pueblo de Esch-sur-Sûre, de apenas 300 habitantes, podría competir en una hipotética lucha por el título de pueblo más bonito de Europa. Enclavada en un valle de suaves colinas y rodeada por un meandro del río Sûre, esta coqueta villa no solo tiene una ubicación envidiable, sino que además está coronada por un castillo del siglo VIII del que se conservan varias torres y parte de las murallas. Además de pasear por el pueblo y subir al castillo, se recomienda buscar un mirador al otro lado del río para gozar de unas fantásticas vistas.</p>
+              </div>
+              <img src="https://media.istockphoto.com/id/1163235399/es/foto/vista-a%C3%A9rea-de-esch-sur-sure-ciudad-medieval-en-luxemburgo-dominada-por-el-castillo-cant%C3%B3n.jpg?s=612x612&w=0&k=20&c=ewFNKAaXypnYCf3-vsmD7x_T1bWRM2Nb0VZrAhZiQC8=" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            <br>
+
+            <div class="card">
+              <div class="card-body para">
+                <h5 class="card-title" style="color: gold;">Clervaux</h5>
+                <p class="card-text">Clervaux es un pueblo con un encanto bastante discreto en comparación con Esch-sur-Sûre, pero merece ser visitado aunque solo sea por su majestuoso castillo del siglo XII, donde se pueden explorar varios espacios independientes, la imponente Église Saint Hubert (1912) y la enorme abadía Saint-Maurice-et-Saint-Maur (1909).</p>
+              </div>
+              <img src="https://images.squarespace-cdn.com/content/v1/5e725b149b18371e98b78664/1600628087244-FNZXK1QCN8JM9217ZU11/Clervaux+1.jpeg?format=1000w" class="card-img-bottom" alt="..." width="50%">
+            </div>
+            
+
+              
+
+          </ol>
+          
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <!-- place footer here ---------------------------------------------------------------------->
+    <a name="contactos"></a>
+    <div class="container-fluid" style="background-color: #A1C298;">
+      <br>
+        <div class="row">
+          <div class="container">
+            <div class="row d">
+                <div class="col">
+                    <h3 style="text-align: center;">Contactos</h3>
+                    <hr>
+                    <strong>
+                      <p>Mariana Carolina Suarez Barragan</p>
+                      <br>
+                      <p>Jose David Ramirez Mogotocoro</p>
+                        <br>
+                      <p>Carlos Arturo Chavarria</p>
+                        <br>
+                    </strong>
+                </div>
+                <div class="col">
+                    <h3 style="text-align: center;">Siguenos</h3>
+                    <hr>
+                    <strong>
+                        Facebook <a href="#"> <img src="/imagenes/facebook.png" alt="" width="20px"></a>
+                        <br>Twitter  <a href="#"> <img src="/imagenes/gorjeo.png" alt="" width="20px"></a>
+                        <br>Instagram  <a href="#"> <img src="/imagenes/instagram.png" alt="" width="20px"></a>
+                        <br>Github  <a href="#"> <img src="/imagenes/github.png" alt="" width="20px"></a>
+
+                    </strong>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="row" style="background-color: #000000;">
+<br>
+
+        </div>
+    </div>
+    </div>
+    
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
